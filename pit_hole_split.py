@@ -1,3 +1,4 @@
+#PR Practice change
 import os
 import shutil
 
@@ -10,7 +11,7 @@ folders = ["train", "valid", "test"]
 
 output_folder = "pitted_surface_dataset"
 
-os.makedirs(output_folder, exist_ok=True)
+os.makedirs(output_folder, exist_ok=False)
 
 # -----------------------------
 # Step 1: Get class ID
